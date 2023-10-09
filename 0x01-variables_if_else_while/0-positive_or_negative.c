@@ -8,8 +8,6 @@
   *Return: sucess (0)
   *
 */
-
-
 int main(void)
 {
 	int n;
