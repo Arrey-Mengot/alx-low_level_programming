@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
-  *main - entry point
+  *print_alphabet - uses _putchar to print alphabet
   *Description: Function that prints alphabet in lwer case
   *Return: Always 0 (sucess)
 */
@@ -13,5 +13,4 @@ void print_alphabet(void)
 	for (c = 'a'; c <= 'z'; c++)
 		_putchar(c);
 	_putchar('\n');
-	return;
 }
