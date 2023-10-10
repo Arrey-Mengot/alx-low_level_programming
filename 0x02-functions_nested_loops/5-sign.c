@@ -19,9 +19,9 @@ int print_sign(int n)
 		_putchar('0');
 		return (0);
 	}
-	else
+	else if (n < 0)
 	{
-		printf("-1");
+		_putchar(45 + 0);
 		return (-1);
 	}
 }
