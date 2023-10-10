@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "_putchar"
+#include "main.h"
 /**
   *main - entry point
   *Description: Function that prints alphabet in lwer case
@@ -12,5 +12,6 @@ void print_alphabet(void)
 
 	for (c = 'a'; c <= 'z'; c++)
 		_putchar(c);
+	_putchar('\n');
 	return;
 }
