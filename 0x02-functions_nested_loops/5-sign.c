@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
   *print_sign - function to proint sign
   *@n: argument to function
@@ -20,7 +21,7 @@ int print_sign(int n)
 	}
 	else
 	{
-		_putchar('-1');
+		printf("-1");
 		return (-1);
 	}
 }
