@@ -1,5 +1,4 @@
 #include "main.h"
-#include "putchar.h"
 
 /**
   *print_numbers - prints numbers from 0-9
