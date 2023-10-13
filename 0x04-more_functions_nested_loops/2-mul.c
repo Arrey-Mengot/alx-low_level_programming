@@ -6,7 +6,7 @@
   *@b: second number (arguments)
   *Description: This function takes two numbers and 
   *adds multiplies them
-  *
+  *Return: multiple of a and b
  */
 
 int mul(int a, int b)
