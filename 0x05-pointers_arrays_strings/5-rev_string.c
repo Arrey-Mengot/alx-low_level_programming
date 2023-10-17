@@ -28,6 +28,8 @@ void rev_string(char *s)
 		ch = *beginptr;
 		*beginptr = *endptr;
 		*endptr = ch;
+		beginptr++;
+		endptr--;
 		i++;
 	}
 }
