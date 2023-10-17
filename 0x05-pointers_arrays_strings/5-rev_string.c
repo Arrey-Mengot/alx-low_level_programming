@@ -15,6 +15,7 @@ void rev_string(char *s)
 	char *endptr;
 	int len = 0;
 	char ch;
+	int i;
 
 	while (s[len] != '\0')
 		len++;
@@ -22,10 +23,11 @@ void rev_string(char *s)
 	beginptr = s;
 	endptr = s + (len - 1);
 
-	for (int i = 0; i < (len/2); i++)
+	while (i < (len / 2))
 	{
 		ch = *beginptr;
 		*beginptr = *endptr;
 		*endptr = ch;
+		i++;
 	}
 }
