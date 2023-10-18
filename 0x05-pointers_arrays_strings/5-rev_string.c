@@ -7,7 +7,7 @@
   * initialise a pointer at end of s
   * Reverse the positions startptr and endptr
   * Increment startptr and decrement endptr
-  * Return: void
+  * Return: nothing
   */
 void rev_string(char *s)
 {
