@@ -17,7 +17,7 @@ int _sqrt_recursion(int n)
 	if (2 % (n / 2) == 0)
 	{
 		if (2 * (n / 2) == n)
-			return (c);
+			return (2);
 		else
 			return (-1);
 	}
