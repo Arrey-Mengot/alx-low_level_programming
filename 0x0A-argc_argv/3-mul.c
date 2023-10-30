@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+/**
+  * main - multiplie two numbers gotten from
+  * command line as arguemtns
+  * @argc: number of args(length of argv)
+  * @argv: array of args
+  * Return: 0 for success
+  */
+int main(int argc, char *argv[] __attribute__((unused)))
+{
+	if (argc != 3)
+	{
+		printf("Error\n");
+		return (1);
+	}
+
+	int arg1 = atoi(argv[1]);
+	int arg2 = atoi(argv[2]);
+	int pdt = arg1 * arg2;
+
+	printf("%d\n", pdt);
+	return (0);
+}
