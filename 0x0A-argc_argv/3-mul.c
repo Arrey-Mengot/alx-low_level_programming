@@ -17,8 +17,8 @@ int main(int argc, char *argv[])
 
 	int arg1 = atoi(argv[1]);
 	int arg2 = atoi(argv[2]);
-	int pdt = arg1 * arg2;
+	int product = arg1 * arg2;
 
-	printf("%d\n", pdt);
+	printf("%d\n", product);
 	return (0);
 }
