@@ -3,7 +3,7 @@
 
 /**
   * _strdup - func that returns pointer to newly allocated
-  * space in memomory which contains a copy of the string 
+  * space in memomory which contains a copy of the string
   * given as parameter
   * @str: string to be passed as parameter
   * Return: Null is size=0 or if it fails and
