@@ -4,7 +4,7 @@
 /**
   *print_strings - func that sums all argumens
   *@n: number of arguments provided
-  *@...: variable number of arguments
+  *
   *@separator: separates the numbers
   *Return: nothing
   */
