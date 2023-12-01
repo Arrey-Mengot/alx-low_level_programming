@@ -4,6 +4,13 @@
 #include <unistd.h>
 #include <elf.h>
 
+/**
+  * main -  function to print elf header
+  * @argc: number of args
+  * @argv: arguments
+  * Return: 1 or -1
+  */
+
 int main(int argc, char *argv[])
 {
 	int fd;
