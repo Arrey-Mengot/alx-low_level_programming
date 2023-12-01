@@ -5,8 +5,8 @@
 #include <stdlib.h>
 /**
   * read_textfile - reads text file and prints to stdout
-  * filename: filename
-  * letters: Number of letters to be read
+  * @filename: filename
+  * @letters: Number of letters to be read
   * Return: nothing
   *
   */
@@ -49,7 +49,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	free(buffer);
 	close(fd);
 
-	return nwrite;
+	return (nwrite);
 
 
 }
